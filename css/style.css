@@ -26,11 +26,14 @@ body{
     flex:1;
 }
 
-.logo{
-    width:120px;
-    margin-bottom:25px;
-}
+.logo {
 
+    width:240px;
+    max-width:85%;
+
+    margin-bottom:25px;
+
+}
 .hero h1{
     font-family:'Cormorant Garamond',serif;
     font-size:64px;
@@ -82,7 +85,7 @@ body{
 section{
     max-width:1100px;
     margin:auto;
-    padding:90px 30px;
+    padding:55px 30px;
 }
 
 section h2{
