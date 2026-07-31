@@ -1,5 +1,12 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
 
-    lucide.createIcons();
+    console.log("JS carregado");
+
+    if (typeof lucide !== "undefined") {
+        lucide.createIcons();
+        console.log("Lucide carregado");
+    } else {
+        console.log("Lucide não carregou");
+    }
 
 });
