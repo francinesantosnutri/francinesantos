@@ -1,12 +1,17 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function () {
 
-    console.log("JS carregado");
+    console.log("Site Francine Santos Nutricionista carregado com sucesso.");
 
     if (typeof lucide !== "undefined") {
+
         lucide.createIcons();
+
         console.log("Lucide carregado");
+
     } else {
+
         console.log("Lucide não carregou");
+
     }
 
 });
